@@ -1,1 +1,253 @@
-i
+
+@font-face {
+    font-family: 'colaborate';
+    src: url('fonts/colabbol-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'chivo';
+    src: url('fonts/chivo-black-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+html,body{
+	overflow-x: hidden;
+}
+
+body{
+	background:linear-gradient(to bottom, rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%);;
+}
+
+.logo{
+	margin-top: 3%;
+}
+
+.navigate {
+	padding: 70px 0 0 0;
+	text-align: right;
+	font-size: 1.75em;
+	font-family: 'colaborate', sans-serif;
+}
+
+.navigate ul li a {
+	background-color:linear-gradient(to bottom, rgba(122,188,255,1) 0%,rgba(96,171,248,1) 44%,rgba(64,150,238,1) 100%);
+	color: #F6F5BF;
+	padding: 5%;
+}
+
+.navigate ul {
+	list-style: none;
+	display: inline;
+	margin-top: 5%;
+}
+
+.navigate ul li{
+	display: inline;
+}
+
+.intro {
+	background-color: #F6F5BF;
+	text-align: center;
+	margin-top: 2.5%;
+	padding: 6% 7% 10% 7%;
+	font-size: 5em;
+	color: rgba(96,171,248,1);
+	font-family: 'chivo', sans-serif;
+	font-style: italic;
+}
+
+
+img.flag{
+	margin: -30% 0 5% 27.5%;
+}
+.about {
+	background-color: #F6F5BF;
+	color: rgba(96,171,248,1);
+	font-size: 1.25em;
+	text-align: justify;
+	padding: 3% 0 2% 0;
+	border-bottom: solid 5px rgba(96,171,248,1);
+	font-family: 'colaborate', sans-serif;
+
+}
+
+.me {
+	text-align: center;
+	font-size: 3em;
+	padding: 6% 0 5% 0;
+	border-right: solid 1px rgba(96,171,248,1);
+	font-family: 'chivo', sans-serif;
+
+}
+
+.hob {
+	background-color: #F6F5BF;
+	color: rgba(96,171,248,1);
+	font-size: 1.25em;
+	text-align: justify;
+	padding: 3% 0 2% 0;
+	border-bottom: solid 5px rgba(96,171,248,1);
+	font-family: 'colaborate', sans-serif;
+
+}
+
+.hobbies {
+	text-align: center;
+	font-size: 3em;
+	padding: 5% 0 4% 0;
+	border-left: solid 1px rgba(96,171,248,1);
+	font-family: 'chivo', sans-serif;
+
+}
+
+.ex {
+	background-color: #F6F5BF;
+	color: rgba(96,171,248,1);
+	font-size: 1.25em;
+	text-align: justify;
+	padding: 3% 0 2% 0;
+	border-bottom: solid 15px rgba(96,171,248,1);
+	font-family: 'colaborate', sans-serif;
+
+}
+
+.experience {
+	text-align: center;
+	font-size: 2.8em;
+	padding: 4% 0 3% 0;
+	border-right: solid 1px rgba(96,171,248,1);
+	font-family: 'chivo', sans-serif;
+
+}
+
+.p3{
+	padding-top: 2%;
+	text-align: justify;
+}
+
+.websites {
+	list-style: none;
+	display: inline-block;
+	padding: 0;
+}
+
+.float {
+	clear: both;
+	background-color: #F6F5BF;
+}
+
+.port {
+	text-align: center;
+	font-size: 3em;
+	font-family: 'chivo', sans-serif;
+	padding: 3% 0 0% 0;
+	color: rgba(96,171,248,1);
+	border-width: 90%;
+	background-color: #F6F5BF;
+	text-decoration: underline;
+
+}
+li.pics {
+	width: 31%;
+	margin-left: 2%;
+	float: left;
+	padding-top: 3%;
+	
+}
+
+.webTitles {
+	list-style: none;
+	display: inline-block;
+	color: rgba(96,171,248,1);
+	}
+ 
+li.pics1 {
+	width: 20%;
+	margin: 0 5% 0 8%;
+	float: left;
+	list-style: none;
+	font-size: 1.35em;
+}
+
+li.pics2{
+	width: 20%;
+	margin: 3% 0% 1% 13%;
+	float: left;
+	list-style: none;
+	font-size: 1.35em;
+}
+ li.pics3{
+ 	width: 20%;
+	margin: 0 0 0 13%;
+	float: right;
+	list-style: none;
+	font-size: 1.35em;
+ }
+
+ .footer{
+ 	color: #F6F5BF;
+ 	text-align: center;
+ 	font-size: 1.1em;
+ 	margin-top: 3%;
+ 	border-top: solid 1px #F6F5BF;
+ }
+
+ a:link{
+ 	color: #C67171;
+ 	text-decoration: none;
+ 	transition: font-size .2s ease, text-decoration .2s ease;
+ 	
+ }
+
+ a:hover{
+ 	color: #c67171;
+ 	font-size: 1.25em;
+ 	text-decoration: underline;
+ 	transition: font-size .2s ease, text-decoration .2s ease;
+ }
+
+ .res{
+ 	text-align: center;
+	font-size: 3em;
+	padding: 3% 0 2% 0;
+	border-top: solid 15px rgba(96,171,248,1);
+	color: rgba(96,171,248,1);
+	background-color: #F6F5BF;
+	text-decoration: underline;
+	font-family: 'chivo', sans-serif;
+ }
+
+ .res1 {
+ 	background-color: #F6F5BF;
+	color: rgba(96,171,248,1);
+	font-size: 1.25em;
+	text-align: justify;
+	padding: 3% 0 2% 0;
+	border-bottom: solid 5px rgba(96,171,248,1);
+	font-family: 'colaborate', sans-serif;
+ }
+
+ .res2{
+ 	background-color: #F6F5BF;
+	color: rgba(96,171,248,1);
+	font-size: 1.25em;
+	text-align: justify;
+	padding: 3% 0 2% 0;
+	border-bottom: solid 5px rgba(96,171,248,1);
+	font-family: 'colaborate', sans-serif;
+ }
+
+
+
+li.links {
+	padding: 6%;
+}
+
+.res3{
+	text-align: center;
+	font-size: 1.25em;
+	color: #c67171);
+	background: rgba(64,150,238,1);
+}

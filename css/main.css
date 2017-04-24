@@ -278,7 +278,7 @@ li.links {
 
 @media only screen and (max-width: 600px) {
 	.logo{
-		margin-left: 31%;
+		margin-left: 23%;
 	}
 	.navigate{
 		text-align: center;
@@ -290,8 +290,8 @@ li.links {
 		font-size: 3em;
 	}
 	img.flag{
-		height: 300px;
-		width: 450px;
+		height: auto;
+		width: 80%;
 		margin-left: 12%;
 		margin-top: -10%;
 	}
@@ -315,6 +315,6 @@ li.links {
 		padding-bottom: 10px;
 	}
 	li.links{
-		padding-left: 16%;
+		padding-left: 11%;
 	}
 }
